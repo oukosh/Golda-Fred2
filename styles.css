@@ -3,15 +3,15 @@ body{
     line-height: 28px;
     font-family: "Open Sans", Arial, sans-serif;
     color: black;
-    display:flex;
-    justify-content: center;
     background-color: grey;
+    padding: 0.1px;
 }
 #navbar{
     width: 25%;
     list-style-type: none; 
     text-align: left;
     height: 100%; 
+    position:fixed;
 }
 #navbar ul{
     padding-left: 0.1em;
@@ -62,6 +62,8 @@ header{
     background-color: white;
     margin-left: 10px;
     float:right;
+    right: 0;
+    top: 0;
 }
 code{
 position: relative;
@@ -75,6 +77,4 @@ padding: 15px;
 clear: both;
 width: 80%;
 display: block;
-
-
 }
